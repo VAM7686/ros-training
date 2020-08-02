@@ -1,0 +1,26 @@
+/home/vivek/Downloads/clion-2019.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DBOOST_ROOT=/usr -DBOOST_INCLUDEDIR=/usr/include/boost -DBOOST_LIBRARYDIR=/usr/lib/x86_64-linux-gnu -DBoost_NO_SYSTEM_PATHS=ON -DBoost_NO_BOOST_CMAKE=ON -DCATKIN_DEVEL_PREFIX=/home/vivek/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/vivek/catkin_ws/install -G "CodeBlocks - Unix Makefiles" /home/vivek/catkin_ws/src/ros-training/code/igvc_training_exercises
+-- Using CATKIN_DEVEL_PREFIX: /home/vivek/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+-- This workspace overlays: /opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/vivek/catkin_ws/src/ros-training/code/igvc_training_exercises/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found SuiteSparse
+-- Searching for g2o ...
+-- Found g2o headers in: /opt/ros/melodic/include/g2o
+-- Found libg2o: /opt/ros/melodic/lib/libg2o_csparse_extension.so;/opt/ros/melodic/lib/libg2o_core.so;/opt/ros/melodic/lib/libg2o_stuff.so;/opt/ros/melodic/lib/libg2o_types_slam2d.so;/opt/ros/melodic/lib/libg2o_types_slam2d_addons.so;/opt/ros/melodic/lib/libg2o_types_slam3d.so;/opt/ros/melodic/lib/libg2o_solver_cholmod.so;/opt/ros/melodic/lib/libg2o_solver_pcg.so;/opt/ros/melodic/lib/libg2o_solver_csparse.so;/opt/ros/melodic/lib/libg2o_incremental.so
+-- Found suitesparse and g2o, compiling week_slam
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vivek/catkin_ws/src/ros-training/code/igvc_training_exercises/cmake-build-debug
